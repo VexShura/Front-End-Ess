@@ -1,0 +1,44 @@
+/* Algemene instellingen */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    background-color: #1a5bbd;
+}
+
+/* Sectie opmaak met zachte achtergronden */
+.section-light {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+}
+
+.section-dark {
+    background-color: #e2e8f0;
+    padding: 4rem 0;
+}
+
+/* Strakke witte content-boxen met moderne schaduwen en afgeronde hoeken */
+.content-box {
+    background-color: #0307ff;
+    border-radius: 12px;
+    padding: 2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Subtiel effect wanneer je met je muis over een blok gaat */
+.content-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Afbeelding mooi en strak passend maken */
+.product-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Titels wat dikker en moderner */
+h2, h3, h4 {
+    letter-spacing: -0.5px;
+}
